@@ -39,7 +39,7 @@ const Navbar = () => {
 <div id="dropdown" className={`z-10 ${showdropdown? "":"hidden"}  absolute right-0 mt-18 bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-50 dark:bg-gray-700`}>
     <ul className="py-5 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
       <li>
-        <Link href="/generate" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">edit</Link>
+        <Link href="/generate" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Edit</Link>
       </li>
       <li>
         <Link href={`${session?.user?.name}`} className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Your page</Link>
